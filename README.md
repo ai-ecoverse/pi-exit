@@ -1,23 +1,39 @@
 # pi-exit
 
-A minimal [pi](https://github.com/earendil-works/pi) extension that registers `/exit` as a first-class slash command (alias for the built-in `/quit`).
+**`/exit` for pi** — because freedom isn't just in the license.
 
-## Features
+## The Problem
 
-- Adds `/exit` command that cleanly shuts down pi
-- No conflicts with built-in commands
-- Works exactly like `/quit`
+Claude Code uses `/exit`.
+
+pi uses `/quit`.
+
+This isn't an accident. It's a **devious user retention strategy**.
+
+After years of muscle memory, thousands of developers instinctively type `/exit` when they want to leave. In pi, that does nothing. You're trapped. Forced to remember a different command just to escape.
+
+It's the software equivalent of a hotel with no obvious exit signs — "free as in beer," but not "free as in 'am I free to leave?'"
+
+## The Solution
+
+`pi-exit` adds `/exit` as a first-class command (alias for the built-in `/quit`).
+
+Install it once and you're finally free to leave whenever you want.
+
+No more "wait, what was the command again?" moments. No more retention through friction.
+
+This is what real free software looks like.
 
 ## Installation
 
-### From npm (recommended)
+### Recommended
 ```bash
 pi install npm:@ai-ecoverse/pi-exit
 ```
 
 Then run `/reload` inside pi.
 
-### Quick test (local development)
+### Quick local test
 ```bash
 pi -e ~/Developer/ai-ecoverse/pi-exit
 ```
@@ -35,7 +51,7 @@ Just type:
 /exit
 ```
 
-It will exit pi the same way `/quit` does.
+It will exit pi the same way `/quit` does — only now it respects your muscle memory.
 
 ## Development
 
@@ -46,3 +62,5 @@ The extension source is a single file:
 ## License
 
 MIT
+
+*Free as in "I can leave now."*
