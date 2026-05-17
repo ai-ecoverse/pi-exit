@@ -1,13 +1,20 @@
 {
   "name": "@ai-ecoverse/pi-exit",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "pi extension that adds /exit as an alias for the built-in /quit command",
   "main": "index.ts",
   "type": "module",
   "pi": {
-    "extensions": ["./index.ts"]
+    "extensions": [
+      "./index.ts"
+    ]
   },
-  "keywords": ["pi", "extension", "exit", "quit"],
+  "keywords": [
+    "pi",
+    "extension",
+    "exit",
+    "quit"
+  ],
   "license": "MIT",
   "author": "trieloff",
   "repository": {
